@@ -44,7 +44,7 @@ public class TestList {
 		list.add(77);
 		assertEquals(true, list.isEmpty());
 		assertEquals(0, list.size());
-		assertEquals(0, list.get(0));
+		assertEquals(0, list.get(0).intValue());
 	}
 
 	@Test
@@ -63,7 +63,7 @@ public class TestList {
 		// TODO fix the expected values in the assertions below
 		assertEquals(0, list.size());
 		assertEquals(0, list.indexOf(77));
-		assertEquals(0, list.get(1));
+		assertEquals(0, list.get(1).intValue());
 		assertEquals(0, list.lastIndexOf(77));
 	}
 
@@ -80,8 +80,8 @@ public class TestList {
 		assertEquals(0, list.size());
 		assertEquals(0, list.indexOf(77));
 		assertEquals(0, list.lastIndexOf(77));
-		assertEquals(0, list.get(2));
-		assertEquals(0, list.get(3));
+		assertEquals(0, list.get(2).intValue());
+		assertEquals(0, list.get(3).intValue());
 		assertEquals(Arrays.asList(33, 77, 44), list);
 	}
 
@@ -99,14 +99,14 @@ public class TestList {
 		assertEquals(0, list.size());
 		assertEquals(0, list.indexOf(77));
 		assertEquals(0, list.lastIndexOf(77));
-		assertEquals(0, list.get(2));
-		assertEquals(0, list.get(3));
+		assertEquals(0, list.get(2).intValue());
+		assertEquals(0, list.get(3).intValue());
 		list.remove(Integer.valueOf(5)); // what does this one do?
 		assertEquals(0, list.size());
 		assertEquals(0, list.indexOf(77));
 		assertEquals(0, list.lastIndexOf(77));
-		assertEquals(0, list.get(2));
-		assertEquals(0, list.get(3));
+		assertEquals(0, list.get(2).intValue());
+		assertEquals(0, list.get(3).intValue());
 	}
 
 	@Test
@@ -130,13 +130,13 @@ public class TestList {
 		// add items to the list to make the following assertions pass
 		// (without touching the assertions themselves)
 		assertEquals(7, list.size());
-		assertEquals(33, list.get(0));
-		assertEquals(77, list.get(1));
-		assertEquals(44, list.get(2));
-		assertEquals(77, list.get(3));
-		assertEquals(55, list.get(4));
-		assertEquals(77, list.get(5));
-		assertEquals(66, list.get(6));
+		assertEquals(33, list.get(0).intValue());
+		assertEquals(77, list.get(1).intValue());
+		assertEquals(44, list.get(2).intValue());
+		assertEquals(77, list.get(3).intValue());
+		assertEquals(55, list.get(4).intValue());
+		assertEquals(77, list.get(5).intValue());
+		assertEquals(66, list.get(6).intValue());
 	}
 
 	@Test
@@ -184,13 +184,13 @@ public class TestList {
 		// such that the following assertions pass
 		// (without touching the assertions themselves)
 		assertEquals(7, list.size());
-		assertEquals(33, list.get(0));
-		assertEquals(99, list.get(1));
-		assertEquals(44, list.get(2));
-		assertEquals(99, list.get(3));
-		assertEquals(55, list.get(4));
-		assertEquals(99, list.get(5));
-		assertEquals(66, list.get(6));
+		assertEquals(33, list.get(0).intValue());
+		assertEquals(99, list.get(1).intValue());
+		assertEquals(44, list.get(2).intValue());
+		assertEquals(99, list.get(3).intValue());
+		assertEquals(55, list.get(4).intValue());
+		assertEquals(99, list.get(5).intValue());
+		assertEquals(66, list.get(6).intValue());
 	}
 
 	@Test

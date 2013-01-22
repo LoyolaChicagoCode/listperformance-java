@@ -45,20 +45,20 @@ public class TestIterator {
 		list.add(66);
 		final Iterator<Integer> i = list.iterator();
 		assertTrue(i.hasNext());
-		assertEquals(33, i.next());
+		assertEquals(33, i.next().intValue());
 		// TODO fix the expected values in the assertions below
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next());
+		assertEquals(0, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next());
+		assertEquals(0, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next());
+		assertEquals(0, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next());
+		assertEquals(0, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next());
+		assertEquals(0, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next());
+		assertEquals(0, i.next().intValue());
 		assertFalse(i.hasNext());
 	}
 
@@ -95,7 +95,7 @@ public class TestIterator {
 		int n = 0;
 		// TODO use an iterator and a while loop to compute the average (mean) of the values
 		// (defined as the sum of the items divided by the number of items)
-		assertEquals(61, sum / n);
+		assertEquals(61, sum / n, 0.1);
 		assertEquals(7, n);
 	}
 }
