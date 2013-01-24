@@ -95,7 +95,7 @@ public class TestIterator {
 		int n = 0;
 		// TODO use an iterator and a while loop to compute the average (mean) of the values
 		// (defined as the sum of the items divided by the number of items)
-		assertEquals(61, sum / n, 0.1);
+		assertEquals(61.3, sum / n, 0.1);
 		assertEquals(7, n);
 	}
 }
