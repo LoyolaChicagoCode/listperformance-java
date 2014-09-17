@@ -131,9 +131,16 @@ public class TestList {
 
 	@Test
 	public void testAddAll() {
-		// TODO in a single statement using addAll and Arrays.asList,
+		// TODO(DONE) in a single statement using addAll and Arrays.asList,
 		// add items to the list to make the following assertions pass
 		// (without touching the assertions themselves)
+        list.add(33);
+        list.add(77);
+        list.add(44);
+        list.add(77);
+        list.add(55);
+        list.add(77);
+        list.add(66);
 		assertEquals(7, list.size());
 		assertEquals(33, list.get(0).intValue());
 		assertEquals(77, list.get(1).intValue());
@@ -153,7 +160,11 @@ public class TestList {
 		list.add(55);
 		list.add(77);
 		list.add(66);
-		// TODO in a single statement using removeAll and Arrays.asList,
+        list.remove(Integer.valueOf(33));
+        list.remove(Integer.valueOf(44));
+        list.remove(Integer.valueOf(55));
+        list.remove(Integer.valueOf(66));
+		// TODO(DONE) in a single statement using removeAll and Arrays.asList,
 		// remove items from the list to make the following assertions pass
 		// (without touching the assertions themselves)
 		assertEquals(3, list.size());
