@@ -1,6 +1,7 @@
 package cs271.lab.list;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
@@ -40,19 +41,22 @@ public class TestList {
 
 	@Test
 	public void testSizeNonEmpty() {
-		// TODO fix the expected values in the assertions below
+		// TODO(DONE) fix the expected values in the assertions below
 		list.add(77);
-		assertEquals(true, list.isEmpty());
-		assertEquals(0, list.size());
-		assertEquals(0, list.get(0).intValue());
+		assertEquals(false, list.isEmpty());
+		assertEquals(1, list.size());
+		assertEquals(77, list.get(0).intValue());
 	}
 
 	@Test
 	public void testContains() {
-		// TODO write assertions using
+		// TODO(DONE) write assertions using
+        assertFalse(list.contains(77));
+        list.add(77);
+        assertTrue(list.contains(77));
 		// list.contains(77)
 		// that hold before and after adding 77 to the list
-		fail("Not yet implemented"); // remove this line when done
+		//fail("Not yet implemented"); // remove this line when done
 	}
 
 	@Test
@@ -60,11 +64,11 @@ public class TestList {
 		list.add(77);
 		list.add(77);
 		list.add(77);
-		// TODO fix the expected values in the assertions below
-		assertEquals(0, list.size());
+		// TODO (DONE) fix the expected values in the assertions below
+		assertEquals(3, list.size());
 		assertEquals(0, list.indexOf(77));
-		assertEquals(0, list.get(1).intValue());
-		assertEquals(0, list.lastIndexOf(77));
+		assertEquals(77, list.get(1).intValue());
+		assertEquals(2, list.lastIndexOf(77));
 	}
 
 	@Test
@@ -76,13 +80,13 @@ public class TestList {
 		list.add(55);
 		list.add(77);
 		list.add(66);
-		// TODO fix the expected values in the assertions below
-		assertEquals(0, list.size());
-		assertEquals(0, list.indexOf(77));
-		assertEquals(0, list.lastIndexOf(77));
-		assertEquals(0, list.get(2).intValue());
-		assertEquals(0, list.get(3).intValue());
-		assertEquals(Arrays.asList(33, 77, 44), list);
+		// TODO(DONE) fix the expected values in the assertions below
+		assertEquals(7, list.size());
+		assertEquals(1, list.indexOf(77));
+		assertEquals(5, list.lastIndexOf(77));
+		assertEquals(44, list.get(2).intValue());
+		assertEquals(77, list.get(3).intValue());
+		assertEquals(Arrays.asList(33, 77, 44, 77, 55, 77, 66), list);
 	}
 
 	@Test
@@ -94,19 +98,20 @@ public class TestList {
 		list.add(5);
 		list.add(77);
 		list.add(6);
-		list.remove(5); // what does this method do?
-		// TODO fix the expected values in the assertions below
-		assertEquals(0, list.size());
-		assertEquals(0, list.indexOf(77));
-		assertEquals(0, list.lastIndexOf(77));
-		assertEquals(0, list.get(2).intValue());
-		assertEquals(0, list.get(3).intValue());
-		list.remove(Integer.valueOf(5)); // what does this one do?
-		assertEquals(0, list.size());
-		assertEquals(0, list.indexOf(77));
-		assertEquals(0, list.lastIndexOf(77));
-		assertEquals(0, list.get(2).intValue());
-		assertEquals(0, list.get(3).intValue());
+		list.remove(5); // what does this method do? Answer) it removes what is at index 5.
+		// TODO(DONE) fix the expected values in the assertions below
+		assertEquals(6, list.size());
+		assertEquals(1, list.indexOf(77));
+		assertEquals(3, list.lastIndexOf(77));
+		assertEquals(4, list.get(2).intValue());
+		assertEquals(77, list.get(3).intValue());
+		list.remove(Integer.valueOf(5)); // what does this one do? Answer) It removes any entries
+                                         //with a value of 5.
+		assertEquals(5, list.size());
+		assertEquals(1, list.indexOf(77));
+		assertEquals(3, list.lastIndexOf(77));
+		assertEquals(4, list.get(2).intValue());
+		assertEquals(77, list.get(3).intValue());
 	}
 
 	@Test
