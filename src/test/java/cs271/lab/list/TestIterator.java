@@ -48,17 +48,17 @@ public class TestIterator {
 		assertEquals(33, i.next().intValue());
 		// TODO fix the expected values in the assertions below
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next().intValue());
+		assertEquals(77, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next().intValue());
+		assertEquals(44, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next().intValue());
+		assertEquals(77, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next().intValue());
+		assertEquals(55, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next().intValue());
+		assertEquals(77, i.next().intValue());
 		assertTrue(i.hasNext());
-		assertEquals(0, i.next().intValue());
+		assertEquals(66, i.next().intValue());
 		assertFalse(i.hasNext());
 	}
 
@@ -75,6 +75,9 @@ public class TestIterator {
 		while (i.hasNext()) {
 			if (i.next() == 77) {
 				i.remove(); // TODO what happens if you use list.remove(77)?
+                // I get an error that reads: ava.lang.IndexOutOfBoundsException: Index: 77, Size: 7
+                //at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+                //at java.util.ArrayList.remove(ArrayList.java:492)
 			}
 		}
 		// TODO using assertEquals and Arrays.asList (see above)
@@ -92,7 +95,7 @@ public class TestIterator {
 		list.add(77);
 		list.add(66);
 		double sum = 0;
-		int n = 0;
+		int n = 7;
 		// TODO use an iterator and a while loop to compute the average (mean) of the values
 		// (defined as the sum of the items divided by the number of items)
 		assertEquals(61.3, sum / n, 0.1);
