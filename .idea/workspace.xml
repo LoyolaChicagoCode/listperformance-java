@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3131c5a-e454-4c77-93e6-8964534cfa39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cs2-lab5-listperformance-java.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cs2-lab5-listperformance-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +29,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -151,6 +146,8 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="1420753508000" />
+        <entry key="$PROJECT_DIR$/../hello-java" value="1420419305640" />
         <entry key="E:/AndroidStudioProjects/cs2-lab5-listperformance-java" value="1408506331501" />
         <entry key="E:/AndroidStudioProjects/cs313f14p1" value="1408489146629" />
         <entry key="E:/AndroidStudioProjects/hello-java" value="1408497682160" />
@@ -171,8 +168,6 @@
         <entry key="E:/AndroidStudioProjectsF14/simpledraw-android-java" value="4232379598124" />
         <entry key="E:/AndroidStudioProjectsF14/uidemo-android-java" value="4245162322007" />
         <entry key="E:/AndroidStudioProjectsSP15/hello-java" value="1420401425163" />
-        <entry key="$PROJECT_DIR$" value="1420731894016" />
-        <entry key="$PROJECT_DIR$/../hello-java" value="1420419305640" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -194,108 +189,6 @@
               <option name="name" value="cs2-lab5-listperformance-java" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="E:/gradle-2.2.1/src/announce" />
-                  <option value="E:/gradle-2.2.1/src/antlr" />
-                  <option value="E:/gradle-2.2.1/src/base-services" />
-                  <option value="E:/gradle-2.2.1/src/base-services-groovy" />
-                  <option value="E:/gradle-2.2.1/src/build-comparison" />
-                  <option value="E:/gradle-2.2.1/src/build-init" />
-                  <option value="E:/gradle-2.2.1/src/cli" />
-                  <option value="E:/gradle-2.2.1/src/code-quality" />
-                  <option value="E:/gradle-2.2.1/src/core" />
-                  <option value="E:/gradle-2.2.1/src/cunit" />
-                  <option value="E:/gradle-2.2.1/src/dependency-management" />
-                  <option value="E:/gradle-2.2.1/src/diagnostics" />
-                  <option value="E:/gradle-2.2.1/src/ear" />
-                  <option value="E:/gradle-2.2.1/src/ide" />
-                  <option value="E:/gradle-2.2.1/src/ide-native" />
-                  <option value="E:/gradle-2.2.1/src/internal-integ-testing" />
-                  <option value="E:/gradle-2.2.1/src/internal-testing" />
-                  <option value="E:/gradle-2.2.1/src/ivy" />
-                  <option value="E:/gradle-2.2.1/src/jacoco" />
-                  <option value="E:/gradle-2.2.1/src/javascript" />
-                  <option value="E:/gradle-2.2.1/src/jetty" />
-                  <option value="E:/gradle-2.2.1/src/language-groovy" />
-                  <option value="E:/gradle-2.2.1/src/language-java" />
-                  <option value="E:/gradle-2.2.1/src/language-jvm" />
-                  <option value="E:/gradle-2.2.1/src/language-native" />
-                  <option value="E:/gradle-2.2.1/src/launcher" />
-                  <option value="E:/gradle-2.2.1/src/maven" />
-                  <option value="E:/gradle-2.2.1/src/messaging" />
-                  <option value="E:/gradle-2.2.1/src/model-core" />
-                  <option value="E:/gradle-2.2.1/src/model-groovy" />
-                  <option value="E:/gradle-2.2.1/src/native" />
-                  <option value="E:/gradle-2.2.1/src/open-api" />
-                  <option value="E:/gradle-2.2.1/src/osgi" />
-                  <option value="E:/gradle-2.2.1/src/platform-base" />
-                  <option value="E:/gradle-2.2.1/src/platform-jvm" />
-                  <option value="E:/gradle-2.2.1/src/platform-native" />
-                  <option value="E:/gradle-2.2.1/src/plugin-development" />
-                  <option value="E:/gradle-2.2.1/src/plugin-use" />
-                  <option value="E:/gradle-2.2.1/src/plugins" />
-                  <option value="E:/gradle-2.2.1/src/publish" />
-                  <option value="E:/gradle-2.2.1/src/reporting" />
-                  <option value="E:/gradle-2.2.1/src/resources" />
-                  <option value="E:/gradle-2.2.1/src/resources-http" />
-                  <option value="E:/gradle-2.2.1/src/scala" />
-                  <option value="E:/gradle-2.2.1/src/signing" />
-                  <option value="E:/gradle-2.2.1/src/sonar" />
-                  <option value="E:/gradle-2.2.1/src/tooling-api" />
-                  <option value="E:/gradle-2.2.1/src/ui" />
-                  <option value="E:/gradle-2.2.1/src/wrapper" />
-                  <option value="E:/gradle-2.2.1/lib/ant-1.9.3.jar" />
-                  <option value="E:/gradle-2.2.1/lib/ant-launcher-1.9.3.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-base-services-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-base-services-groovy-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-cli-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-core-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-docs-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-launcher-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-messaging-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-model-core-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-model-groovy-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-native-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-open-api-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-resources-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-tooling-api-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-ui-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/gradle-wrapper-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/groovy-all-2.3.6.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/ant-antlr-1.9.3.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-announce-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-antlr-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-build-comparison-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-build-init-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-code-quality-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-cunit-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-dependency-management-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-diagnostics-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-ear-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-ide-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-ide-native-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-ivy-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-jacoco-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-javascript-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-jetty-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-language-groovy-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-language-java-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-language-jvm-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-language-native-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-maven-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-osgi-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-platform-base-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-platform-jvm-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-platform-native-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-plugin-development-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-plugin-use-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-plugins-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-publish-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-reporting-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-resources-http-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-scala-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-signing-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/gradle-sonar-2.2.1.jar" />
-                  <option value="E:/gradle-2.2.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -307,10 +200,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="46" />
-    <option name="width" value="1580" />
-    <option name="height" value="982" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -338,7 +230,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,10 +279,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +305,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.All in cs2-lab5-listperformance-java (1)">
+  <component name="RunManager" selected="JUnit.All in cs2-lab5-listperformance-java">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -542,14 +434,14 @@
     <configuration default="false" name="All in cs2-lab5-listperformance-java" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="cs2-lab5-listperformance-java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -561,31 +453,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="All in cs2-lab5-listperformance-java (1)" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="cs2-lab5-listperformance-java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in cs2-lab5-listperformance-java" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in cs2-lab5-listperformance-java (1)" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -605,35 +474,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="46" width="1580" height="982" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -694,7 +563,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Android API 21 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
