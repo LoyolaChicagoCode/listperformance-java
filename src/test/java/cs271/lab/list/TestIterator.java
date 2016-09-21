@@ -16,6 +16,7 @@ import org.junit.Test;
 public class TestIterator {
 
 	private List<Integer> list;
+	// See the Java List Interface documentation to understand what all the List methods do ...
 
 	@Before
 	public void setUp() throws Exception {
@@ -77,8 +78,9 @@ public class TestIterator {
 				i.remove(); // TODO what happens if you use list.remove(77)?
 			}
 		}
-		// TODO using assertEquals and Arrays.asList (see above)
-		// express which values are left in the list
+		// TODO using assertEquals and Arrays.asList, express which values are left in the list
+		// See TestList.java for examples of how to use Arrays.asList; also see the Java Arrays
+		// class for more information
 		fail("Not yet implemented"); // remove this line when done
 	}
 
@@ -95,6 +97,7 @@ public class TestIterator {
 		int n = 0;
 		// TODO use an iterator and a while loop to compute the average (mean) of the values
 		// (defined as the sum of the items divided by the number of items)
+		// testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
 		assertEquals(61.3, sum / n, 0.1);
 		assertEquals(7, n);
 	}
