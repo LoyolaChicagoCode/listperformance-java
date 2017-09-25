@@ -30,7 +30,7 @@ local.properties
 .classpath
 .settings/
 
-# Gradle cache
+# Gradle
 .gradle/
 
 # Mac files
