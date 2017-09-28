@@ -14,6 +14,7 @@ An understanding of the following concepts and techniques:
   - how it relates to algorithmic complexity
 - abstract data types (ADT)
 - array-based versus linked lists
+- getting started with iterators
 - automated unit testing using JUnit
   - testing for exceptions
   - test fixtures and assertions
