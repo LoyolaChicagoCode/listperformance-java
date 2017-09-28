@@ -46,7 +46,8 @@ Please submit the following deliverables:
 # Grading
 
 - 1 submission via GitHub
-- 2 tests passing and completion of items marked TODO
+- 1 tests passing and completion of items marked TODO
+- 1 performance testing for increasing problem sizes
 - 2 written part
   - 1.5 responses to the questions above
   - 0.5 grammar, style, formatting
