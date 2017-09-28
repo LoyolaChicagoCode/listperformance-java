@@ -18,18 +18,17 @@ An understanding of the following concepts and techniques:
 - automated unit testing using JUnit
   - testing for exceptions
   - test fixtures and assertions
-
+  
 # Instructions
 
-Complete the parts marked as TODO. Use the TODO view in Android Studio to find these easily (View > Tool Windows > TODO).
-Make changes and repeat until the unit tests pass.
-Commit your changes.
-
+The key idea is to think about this lab like a physics experiment! 
+You will set it up and then take measurements.
 
 1. Review the code.
 1. Fix the syntax errors (if any, though there probably aren't any).
 2. Run the code for various inputs to gain an understanding of what it does.
 3. Complete the items marked TODO in the code and get the tests to pass.
+2. Conduct the performance measurements: you will find the running times in the test report.
 4. Create a markdown document called Answers.md and answer the various questions embedded in the code.
 
 # Deliverables and submission
