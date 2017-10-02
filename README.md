@@ -50,5 +50,6 @@ Please submit the following deliverables:
 - 2 written part
   - 1.5 responses to the questions above
   - 0.5 grammar, style, formatting
+- 0.5 (optional) DRY in performance testing 
 
 *5 points TOTAL*
