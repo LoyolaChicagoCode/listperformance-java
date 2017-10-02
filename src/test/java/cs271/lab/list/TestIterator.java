@@ -74,7 +74,7 @@ public class TestIterator {
     final Iterator<Integer> i = list.iterator();
     while (i.hasNext()) {
       if (i.next() == 77) {
-        i.remove(); // TODO what happens if you use list.remove(77)?
+        i.remove(); // TODO what happens if you use list.remove(Integer.valueOf(77))?
       }
     }
     // TODO using assertEquals and Arrays.asList, express which values are left in the list
