@@ -41,7 +41,7 @@ Please submit the following deliverables:
 
 # Grading
 
-- 1 submission via Bitbucket repo (should still show Dr. Laufer's history before your import into Bitbucket and clone into Android Studio)
+- 1 submission via Bitbucket repo (should still show the Commit history before your import into Bitbucket and clone into Android Studio)
 - 1 completing the parts marked as TODO (View > Tool Windows > TODO)
 - 1 adding the README.txt file answering questions embedded in the code
 
