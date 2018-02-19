@@ -1,8 +1,6 @@
-# COMP 271 002 F17 Lab 3
+# COMP 313 Project 2
 
-# Team project
-
-Work in teams of two but submit individually (see details below)
+# Individual project
 
 # Objectives
 
@@ -24,32 +22,29 @@ An understanding of the following concepts and techniques:
 The key idea is to think about this lab like a physics experiment! 
 You will set it up and then take measurements.
 
-1. Review the code.
-1. Fix the syntax errors (if any, though there probably aren't any).
-2. Run the code for various inputs to gain an understanding of what it does.
-3. Complete the items marked TODO in the code and get the tests to pass.
-2. Conduct the performance measurements: you will find the running times in the test report.
-4. Create a markdown document called Answers.md and answer the various questions embedded in the code.
+1. Import the GitHub repository into your Bitbucket account - see online course website for how to name it
+2. Review the code.
+3. Fix the syntax errors (if any, though there probably aren't any).
+4. Run the code for various inputs to gain an understanding of what it does.
+5. Complete the items marked TODO in the code and get the tests to pass.
+6. Conduct the performance measurements: you will find the running times in the test report.
+7. Create a markdown document called Answers.md or a text document Answers.txt and answer the various questions embedded in the code.
 
 # Deliverables and submission
 
 Please submit the following deliverables:
 
-- Shared GitHub Classroom lab3 repository where you worked on this project as a group 
-  (there should be commits from all group members)
-- Individual Sakai submission under "Lab 3":
-  - URL of shared GitHub team repository
-  - Brief description of your collaboration style and summary of your 
-    individual contributions to this team project
+- Shared Bitbucket Project 2 repository
+- Individual Sakai submission under "Project 2":
+  - URL of shared Bitbucket repository
 
 # Grading
 
-- 1 submission via GitHub
+- 1 submission via Sakai and Bitbucket
 - 1 tests passing and completion of items marked TODO
 - 1 performance testing for increasing problem sizes
 - 2 written part
   - 1.5 responses to the questions above
-  - 0.5 grammar, style, formatting
-- 0.5 (optional) DRY in performance testing 
+  - 0.5 grammar, style, formatting 
 
 *5 points TOTAL*
