@@ -36,7 +36,7 @@ You will set it up and then take measurements.
 Please submit the following deliverables:
 
 - Shared Bitbucket Project 2 repository
-- Individual Sakai submission under "Project 2":
+- Individual Sakai submission under "Project 2" Assignment:
   - URL of shared Bitbucket repository
 
 # Grading
