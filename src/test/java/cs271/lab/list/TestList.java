@@ -93,14 +93,14 @@ public class TestList {
     list.add(5);
     list.add(77);
     list.add(6);
-    list.remove(5); // what does this method do?
+    list.remove(5); // TODO answer: what does this method do?
     // TODO fix the expected values in the assertions below
     assertEquals(0, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(0, list.lastIndexOf(77));
     assertEquals(0, list.get(2).intValue());
     assertEquals(0, list.get(3).intValue());
-    list.remove(Integer.valueOf(5)); // what does this one do?
+    list.remove(Integer.valueOf(5)); // TODO answer: what does this one do?
     assertEquals(0, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(0, list.lastIndexOf(77));
