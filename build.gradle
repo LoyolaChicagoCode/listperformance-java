@@ -1,18 +1,17 @@
 buildscript {
     repositories {
+        google()
         maven { url "https://plugins.gradle.org/m2/" }
     }
     dependencies {
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.15.0'
-        classpath 'gradle.plugin.com.github.sherter.google-java-format:google-java-format-gradle-plugin:0.6'
+        classpath 'com.android.tools.build:gradle:3.3.0'
     }
 }
 
 apply plugin: 'java'
-apply plugin: 'com.github.ben-manes.versions'
-apply plugin: 'com.github.sherter.google-java-format'
 
 repositories {
+    google()
     jcenter()
 }
 
@@ -26,8 +25,4 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(JavaExec) {
     jvmArgs << "-enableassertions"
-}
-
-googleJavaFormat {
-    toolVersion = '1.4'
 }
