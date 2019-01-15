@@ -13,7 +13,7 @@ public class TestPerformance {
   // (choose in conjunction with REPS below up to an upper limit where the clock
   // running time is in the tens of seconds)
   // TODO (optional) refactor to DRY
-  // which of the two lists performs better as the size increases?
+  // TODO answer: which of the two lists performs better as the size increases?
   private final int SIZE = 10;
 
   // TODO choose this value in such a way that you can observe an actual effect
