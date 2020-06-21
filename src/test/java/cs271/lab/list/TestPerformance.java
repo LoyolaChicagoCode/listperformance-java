@@ -27,7 +27,7 @@ public class TestPerformance {
   private List<Integer> linkedList;
 
   @Before
-  public void setUp() throws Exception {
+  public void setUp() {
     arrayList = new ArrayList<Integer>(SIZE);
     linkedList = new LinkedList<Integer>();
     for (int i = 0; i < SIZE; i++) {
@@ -37,7 +37,7 @@ public class TestPerformance {
   }
 
   @After
-  public void tearDown() throws Exception {
+  public void tearDown() {
     arrayList = null;
     linkedList = null;
   }
