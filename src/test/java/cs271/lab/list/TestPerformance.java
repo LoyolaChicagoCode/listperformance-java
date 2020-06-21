@@ -11,14 +11,16 @@ public class TestPerformance {
 
   // TODO run test and record running times for SIZE = 10, 100, 1000, 10000, ...
   // (choose in conjunction with REPS below up to an upper limit where the clock
-  // running time is in the tens of seconds)
+  // running time for some methods is in the order of seconds, probably around 10_000)
   // TODO (optional) refactor to DRY
-  // TODO answer: which of the two lists performs better as the size increases?
+  // TODO answer: which of the two lists performs better for each method as the size increases?
+
   private final int SIZE = 10;
 
   // TODO choose this value in such a way that you can observe an actual effect
-  // for increasing problem sizes
-  private final int REPS = 1000000;
+  // for increasing problem sizes - 1_000_000 is probably sufficient
+
+  private final int REPS = 1_000_000;
 
   private List<Integer> arrayList;
 
