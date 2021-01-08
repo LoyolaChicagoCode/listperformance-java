@@ -28,6 +28,7 @@ You will set it up and then take measurements.
 4. Run the code for various inputs to gain an understanding of what it does.
 5. Using Android Studio, complete the items marked TODO in the code and get the tests to pass.
    - Run the tests in a Terminal window using gradlew test on Windows or ./gradlew test on Mac or Linux/Unix.
+   - Alternatively, right-click the project name and choose Run 'All Tests'
 6. Conduct the performance measurements: you will find the running times in the test report.
 7. Create a text document called README.txt in the project folder and answer the various questions embedded in the code.
 
