@@ -20,7 +20,7 @@ public class TestIterator {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // TODO also try with a LinkedList - does it make any difference behaviorally? (ignore performance)
+    // TODO also try with a LinkedList - does it make any difference?
   }
 
   @After
@@ -30,7 +30,7 @@ public class TestIterator {
 
   @Test
   public void testEmpty() {
-    final Iterator<Integer> i = list.iterator();
+    final var i = list.iterator();
     assertFalse(i.hasNext());
   }
 
@@ -43,7 +43,7 @@ public class TestIterator {
     list.add(55);
     list.add(77);
     list.add(66);
-    final Iterator<Integer> i = list.iterator();
+    final var i = list.iterator();
     assertTrue(i.hasNext());
     assertEquals(33, i.next().intValue());
     // TODO fix the expected values in the assertions below
@@ -71,14 +71,14 @@ public class TestIterator {
     list.add(55);
     list.add(77);
     list.add(66);
-    final Iterator<Integer> i = list.iterator();
+    final var i = list.iterator();
     while (i.hasNext()) {
       if (i.next() == 77) {
         i.remove(); // TODO what happens if you use list.remove(Integer.valueOf(77))?
       }
     }
-    // TODO using assertEquals and Arrays.asList, express which values are left in the list
-    // See TestList.java for examples of how to use Arrays.asList; also see the Java Arrays
+    // TODO using assertEquals and List.of, express which values are left in the list
+    // See TestList.java for examples of how to use List.of; also see the Java Arrays
     // class for more information
     fail("Not yet implemented"); // remove this line when done
   }

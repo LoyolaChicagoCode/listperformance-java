@@ -18,7 +18,7 @@ public class TestList {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // TODO also try with a LinkedList - does it make any difference behaviorally? (ignore performance)
+    // TODO also try with a LinkedList - does it make any difference?
   }
 
   @After
@@ -81,7 +81,7 @@ public class TestList {
     assertEquals(0, list.lastIndexOf(77));
     assertEquals(0, list.get(2).intValue());
     assertEquals(0, list.get(3).intValue());
-    assertEquals(Arrays.asList(33, 77, 44), list);
+    assertEquals(List.of(33, 77, 44), list);
   }
 
   @Test
@@ -93,14 +93,14 @@ public class TestList {
     list.add(5);
     list.add(77);
     list.add(6);
-    list.remove(5); // TODO answer: what does this method do?
+    list.remove(5); // what does this method do?
     // TODO fix the expected values in the assertions below
     assertEquals(0, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(0, list.lastIndexOf(77));
     assertEquals(0, list.get(2).intValue());
     assertEquals(0, list.get(3).intValue());
-    list.remove(Integer.valueOf(5)); // TODO answer: what does this one do?
+    list.remove(Integer.valueOf(5)); // what does this one do?
     assertEquals(0, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(0, list.lastIndexOf(77));
@@ -117,7 +117,7 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
-    // TODO using containsAll and Arrays.asList (see above),
+    // TODO using containsAll and List.of (see above),
     // 1) assert that list contains all five different numbers added
     // 2) assert that list does not contain all of 11, 22, and 33
     fail("Not yet implemented"); // remove this line when done
@@ -125,7 +125,7 @@ public class TestList {
 
   @Test
   public void testAddAll() {
-    // TODO in a single statement using addAll and Arrays.asList,
+    // TODO in a single statement using addAll and List.of,
     // add items to the list to make the following assertions pass
     // (without touching the assertions themselves)
     assertEquals(7, list.size());
@@ -147,11 +147,11 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
-    // TODO in a single statement using removeAll and Arrays.asList,
+    // TODO in a single statement using removeAll and List.of,
     // remove items from the list to make the following assertions pass
     // (without touching the assertions themselves)
     assertEquals(3, list.size());
-    assertEquals(Arrays.asList(77, 77, 77), list);
+    assertEquals(List.of(77, 77, 77), list);
   }
 
   @Test
@@ -163,11 +163,11 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
-    // TODO in a single statement using retainAll and Arrays.asList,
+    // TODO in a single statement using retainAll and List.of,
     // remove items from the list to make the following assertions pass
     // (without touching the assertions themselves)
     assertEquals(3, list.size());
-    assertEquals(Arrays.asList(77, 77, 77), list);
+    assertEquals(List.of(77, 77, 77), list);
   }
 
   @Test
@@ -203,6 +203,6 @@ public class TestList {
     list.add(66);
     // TODO fix the arguments in the subList method so that the assertion
     // passes
-    assertEquals(Arrays.asList(44, 77, 55), list.subList(0, 0));
+    assertEquals(List.of(44, 77, 55), list.subList(0, 0));
   }
 }
