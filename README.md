@@ -24,5 +24,5 @@ You will set it up and then take measurements.
 4. Complete the items marked TODO in the code and get the tests to pass.
 5. Conduct the performance measurements: you will find the running times in the test report.
 6. Create a new doc folder in the project.
-7. Create a document called README.txt in doc and answer the various questions embedded in the code.
+7. Create a document called README.txt in doc and answer the various TODO Questions embedded in the code.
 8. Add README.txt to the Git project, then Commit and push your code to Bitbucket.

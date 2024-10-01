@@ -20,7 +20,7 @@ public class TestIterator {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // TODO also try with a LinkedList - does it make any difference?
+    // TODO Question: Also try with a LinkedList - does it make any difference?
   }
 
   @After
@@ -74,7 +74,7 @@ public class TestIterator {
     final var i = list.iterator();
     while (i.hasNext()) {
       if (i.next() == 77) {
-        i.remove(); // TODO what happens if you use list.remove(Integer.valueOf(77))?
+        i.remove(); // TODO Question: What happens if you use list.remove(Integer.valueOf(77))?
       }
     }
     // TODO using assertEquals and List.of, express which values are left in the list
