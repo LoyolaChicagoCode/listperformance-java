@@ -4,7 +4,7 @@ plugins {
 
 apply plugin: 'java'
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.compilerArgs << "-Xlint:all"
 }
 
@@ -13,5 +13,5 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13'
+    testImplementation 'junit:junit:4.13.1'
 }
